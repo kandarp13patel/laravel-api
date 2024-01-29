@@ -12,9 +12,8 @@ composer install
 # Run the Migration.
 php artisan migrate
 
-
 # Run the Seeder.
-php artisan db:seed
+php artisan db:seed --class=PostSeeder
 
 # Start development Server
 php artisan serve
